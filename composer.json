@@ -1,6 +1,6 @@
 {
     "name": "itrnka/ha-elasticsearch-middleware",
-    "description": "Elasticsearch middleware for ha framework. Provides a proxy to official elasticsearch API.",
+    "description": "Elasticsearch middleware for ha framework. This is a proxy to official elasticsearch API.",
     "type": "library",
     "keywords": [
         "ha",
