@@ -1,0 +1,29 @@
+{
+    "name": "itrnka/ha-elasticsearch-middleware",
+    "description": "Elasticsearch middleware for ha framework. Provides proxy to official elasticsearch API.",
+    "type": "library",
+    "keywords": [
+        "ha",
+        "elasticsearch"
+    ],
+    "homepage": "https://github.com/itrnka/ha-elasticsearch-middleware",
+    "time": "2017-11-15",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "itrnka",
+            "email": "tic.tic@sk",
+            "role": "Developer"
+        }
+    ],
+    "support": {},
+    "require": {
+        "php": "^7.1",
+        "elasticsearch/elasticsearch": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ha\\Middleware\\NoSQL\\Elasticsearch\\": "src/Elasticsearch"
+        }
+    }
+}
