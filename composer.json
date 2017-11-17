@@ -19,6 +19,7 @@
     "support": {},
     "require": {
         "php": "^7.1",
+        "itrnka/ha-framework": "^1.5",
         "elasticsearch/elasticsearch": "~5.0"
     },
     "autoload": {
