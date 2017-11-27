@@ -1,6 +1,6 @@
 # Elasticsearch for *ha* framework
 
-Provides access to official [Elasticsearch PHP API](https://github.com/elastic/elasticsearch-php) as a middleware implementation for *ha* framework.
+Provides access to official [Elasticsearch PHP API](https://github.com/elastic/elasticsearch-php) as a middleware implementation for *ha* framework. Automatically creates a client based on the configuration when it starts the application.
 
 ## Installation
 
@@ -12,7 +12,7 @@ composer require itrnka/ha-elasticsearch-middleware
 
 ## Requirements
 
-This package is based on [*ha* framework](https://github.com/itrnka/ha-framework). Composer installs *ha* framework automatically if it is not already installed.
+This package is based on [*ha* framework](https://github.com/itrnka/ha-framework). Composer installs *ha* framework and Elasticsearch PHP API automatically if it is not already installed.
 
 ## Configuration
 
@@ -60,4 +60,8 @@ $es2 = main()->middleware->ES002;
 // es client (instance of \Elasticsearch\Client):
 $es1Client = main()->middleware->ES001->driver();
 $es2Client = main()->middleware->ES002->driver();
+
+// or (this is the same)
+$es1Client = main()->middleware->ES001->client();
+$es2Client = main()->middleware->ES002->client();
 ```
