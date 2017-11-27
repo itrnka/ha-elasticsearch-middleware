@@ -66,7 +66,6 @@ class Elasticsearch implements Middleware
         return $this->driver;
     }
     
-    
     /**
      * Get client instance.
      *
