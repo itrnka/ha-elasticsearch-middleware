@@ -1,6 +1,6 @@
 # Elasticsearch for *ha* framework
 
-Provides access to official [Elasticsearch PHP API](https://github.com/elastic/elasticsearch-php) as a middleware implementation for the framework.
+Provides access to official [Elasticsearch PHP API](https://github.com/elastic/elasticsearch-php) as a middleware implementation for *ha* framework.
 
 ## Installation
 
