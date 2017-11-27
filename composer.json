@@ -1,6 +1,6 @@
 {
     "name": "itrnka/ha-elasticsearch-middleware",
-    "description": "Elasticsearch middleware for ha framework. This is a proxy to official elasticsearch API.",
+    "description": "Provides access to official Elasticsearch PHP API as a middleware implementation for ha framework. Automatically creates a client based on the configuration when it starts the application.",
     "type": "library",
     "keywords": [
         "ha-framework",
